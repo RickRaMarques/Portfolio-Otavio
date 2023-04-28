@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Marques</title>
+    <style>
+        * {
+
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        header {
+            display: block;
+        }
+
+
+        body {
+            background-color: var(--background-p);
+            margin: 0;
+        }
+
+        :root {
+            --background-p: rgb(82, 82, 82);
+            --background-s: rgb(177, 177, 177);
+        }
+
+        .sobremim {
+            margin-top: 160px;
+            margin-left: 40px;
+            font-size: x-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: var(--background-s);
+            border-radius: 60px 60px 60px 60px;
+            height: 100px;
+            width: 620px;
+        }
+
+        #nome {
+            margin-left: 20px;
+            margin-top: 23px;
+        }
+
+        #foto {
+            border-radius: 70%;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+
+        .sociais {
+            width: 100px;
+            background-color: var(--background-s);
+            border-radius: 10px 10px 10px 10px;
+            height: 90px;
+
+        }
+
+        .icone {
+            margin-left: 510px;
+            margin-top: 150px;
+        }
+
+        .icone img:first-child {
+            margin-right: 30px;
+        }
+
+
+
+        .texto {
+            float: left;
+
+            line-height: 32px;
+            color: black;
+            margin-top: 200px;
+            margin-left: -300px;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: var(--background-s);
+            border-radius: 60px 60px 60px 60px;
+            height: 520px;
+            width: 600px;
+        }
+
+        .texto h1 {
+            margin-top: 0;
+        }
+
+        .texto h2 {
+            margin-left: 30px;
+        }
+
+        #sobremim {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        .h3 {
+            float: left;
+            margin-top: 770px;
+            line-height: 32px;
+            color: black;
+            margin-left: -600px;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: var(--background-s);
+            border-radius: 60px 60px 60px 60px;
+            height: 550px;
+            width: 600px;
+        }
+
+        #h3 {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        #h4 {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .h5 {
+            float: left;
+            margin-top: 1370px;
+            line-height: 32px;
+            color: black;
+            margin-left: -600px;
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: var(--background-s);
+            border-radius: 60px 60px 60px 60px;
+            height: 550px;
+            width: 600px;
+        }
+
+        #h5 {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 36px;
+        }
+
+        #h6 {
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        .footer {
+            background-color: #1b1b1b;
+            padding-top: 390px;
+            margin-bottom: 30px;
+            margin: 0;
+        }
+
+        .nav {
+            border-collapse: collapse;
+
+            padding: 10.5px;
+            font-size: 29px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-left: 70px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .nav a:hover {
+            background-color: rgb(204, 204, 204);
+            color: rgb(0, 0, 0);
+            border-radius: 30px 30px 30px 30px;
+            height: 35px;
+            width: 170px;
+
+
+        }
+
+
+        .botao {
+            color: aliceblue;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav" style="float: none;">
+            <a href="#sobremim" class="botao">Sobre Mim</a>
+            <a href="#h3" class="botao"> Serviços </a>
+            <a href="#h5" class="botao">Projetos</a>
+        </nav>
+        <div class="container">
+            <div class="sobre"></div>
+            <div class="fotoperfil" style="float: left;">
+                <img src="https://lh3.googleusercontent.com/PYPe4TY4NzdFyBFjSqia2wbCdoCjB0EvksQiNjsvarC8_E00BQWYSFgjRIsw7LAsYFvEeOkmSDsr1FJjnR9PPSXH_uG_ODutxSpe39Xa7Q"
+                    alt="" id="foto" width="300px">
+            </div>
+            <div class="sobremim" style="float: left; ">
+                <h1 id="nome">Ricardo Ramalho Marques</h1>
+            </div>
+            <div style="float: left; " class="icone">
+                <a href="https://github.com/RickRaMarques"><img
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="sociais" id="git"></a>
+                <a href="https://www.instagram.com/rick_rm_/"><img
+                        src="https://i1.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente5.png?fit=696%2C696&ssl=1"
+                        alt="" class="sociais"></a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div style="float:left;" class="texto">
+        <h1 id="sobremim">Sobre mim:</h1>
+        <h2 id="sobremim2"> Lorem ipsum dolor, sit amet consectetur <br> elit. Natus laboriosam ea, aperiam saepe,
+            voluptatibus
+            totam earum impedit asperiores accusantium<br> ipsa exercitationem tempora voluptas sint, ut a eligendi
+            dolores
+            incidunt. Id? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio autem nam, recusandae
+            asperiores qui animi, itaque obcaecati <br> praesentium fuga neque modi consequatur corrupti harum corporis!
+            Repellendus aut nesciunt beatae.</h2>
+    </div>
+    <div class="h3" style="float:left;">
+        <h3 id="h3">Serviços:</h3>
+        <h4 id="h4"> Lorem ipsum dolor, sit amet consectetur <br> elit. Natus laboriosam ea, aperiam saepe,
+            voluptatibus
+            totam earum impedit asperiores accusantium<br> ipsa exercitationem tempora voluptas sint, ut a eligendi
+            dolores
+            incidunt. Id? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio autem nam, recusandae
+            asperiores qui animi, itaque obcaecati <br> praesentium fuga neque modi consequatur corrupti harum corporis!
+            Repellendus aut nesciunt beatae.</h4>
+    </div>
+    <div class="h5" style="float:left;">
+        <h5 id="h5">Projetos:</h5>
+        <h6 id="h6"> Lorem ipsum dolor, sit amet consectetur <br> elit. Natus laboriosam ea, aperiam saepe,
+            voluptatibus
+            totam earum impedit asperiores accusantium<br> ipsa exercitationem tempora voluptas sint, ut a eligendi
+            dolores
+            incidunt. Id? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio autem nam, recusandae
+            asperiores qui animi, itaque obcaecati <br> praesentium fuga neque modi consequatur corrupti harum corporis!
+            Repellendus aut nesciunt beatae.</h6>
+    </div>
+    <footer class="footer" style="float: inline-end;">
+
+    </footer>
+
+</body>
+
+</html>
